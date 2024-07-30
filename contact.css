@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4d6575;
+    background-image: url(./assets/cont.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+}
+.bacimg{
+    height: 100vh;
+    width: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:transparent;
+    
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 15px;
+}
+
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+}
+input{
+    appearance: none;
+}
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1.5px solid #aba5a5;
+    border-radius: 15px;
+    outline-style: none;
+
+}
+
+button {
+    padding: 10px 15px;
+    color: rgb(14, 11, 11);
+    background-color:transparent;
+    cursor: pointer;
+    border  : 1.5px solid #aba5a5 ;
+    border-radius: 20px;
+    font-size:larger;
+}
+
+button:hover {
+    background-color: #c1c4c1;
+}
+
+#successMessage {
+    text-align: center;
+    color: rgb(97, 103, 127);
+    margin-top: 12px;
+    font-size: x-large;
+}
+p{
+   text-align: center;
+   margin-top: 170px;
+}
+@media (max-width: 1062px) {
+    body{
+        background-size: cover;
+        height: 100vh;
+    }
+}

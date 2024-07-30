@@ -1,0 +1,55 @@
+.yoga {
+    background: url('./assets/yoga1.jpg') no-repeat center center;
+    background-size: cover;    
+}
+.medi{
+    background: url('./assets/medi.jpg') no-repeat center center;
+    background-size: cover;    
+
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 15px;
+}
+
+.header{
+    color: white;
+}
+.jumbotron h1, .jumbotron p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.img-size{
+    width: 50%;
+ height: 350px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#yoga-poses h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#yoga-poses div img{
+    height: 320px;
+    width: 100%;
+    margin: 5px 0 5px 0;
+    border-radius: 5px;
+}
+
+
+
+section p {
+    margin-bottom: 15px;
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.main-heading{
+    margin-top: 40px;
+}

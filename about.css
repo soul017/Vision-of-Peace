@@ -1,0 +1,69 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin-top: 100px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 15px;
+}
+
+
+.jumbotron h1, .jumbotron p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+section h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    
+    margin-top: 35px;
+    height: 180px;
+}
+
+.card-body h3 {
+    margin-bottom: 15px;
+    color: #0056b3;
+}
+
+.card-body p {
+    color: #666;
+}
+
+
+footer {
+    background-color: #e9ecef;
+    color: #333;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .jumbotron h1 {
+        font-size: 2.5rem;
+    }
+    
+    .jumbotron p {
+        font-size: 1.2rem;
+    }
+    
+    .navbar-nav .nav-link {
+        margin-right: 0;
+    }
+}
